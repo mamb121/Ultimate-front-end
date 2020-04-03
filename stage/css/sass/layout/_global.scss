@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
-    padding: 15px;
 }
 .page {
     min-height: 100vh;
@@ -12,6 +10,8 @@ body {
         min-height: 100%;
         transition: 0.3s;
         will-change: width;
+        background-color: #F8F9FE;
+        min-height: 100vh;
         float:right;
         &.no-sidebar{
             width: 100%;
